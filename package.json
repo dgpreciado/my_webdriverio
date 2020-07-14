@@ -1,0 +1,25 @@
+{
+  "name": "my_webdriverio",
+  "version": "1.0.0",
+  "description": "webdriverio scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgpreciado/my_webdriverio.git"
+  },
+  "author": "Dennis Preciado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgpreciado/my_webdriverio/issues"
+  },
+  "homepage": "https://github.com/dgpreciado/my_webdriverio#readme",
+  "devDependencies": {
+    "webdriverio": "^6.2.0"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.2.0"
+  }
+}

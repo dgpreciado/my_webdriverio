@@ -3,5 +3,6 @@ describe("first test",() => {
         browser.url("https://www.google.com/");
         const search = $('[name="q"]');
         search.setValue('selenium');
+        browser.keys("\uE007");
     })
 });

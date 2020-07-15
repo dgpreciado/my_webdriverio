@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594771029248' stop='1594771029770'>
+    <name>first test</name>
+    <title>first test</title>
+    <test-cases>
+        <test-case start='1594771029248' status='broken' stop='1594771029769'>
+            <name>enters a value</name>
+            <title>enters a value</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.116'/>
+            </parameters>
+            <steps>
+                <step start='1594771029252' status='passed' stop='1594771029768'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='90bc74b6-2749-4d18-b9e5-b4c34957b05f-attachment.png' type='image/png' size='17714'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Wrong parameters applied for getUrl
+                Usage: getUrl()
+                
+                For more info see https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol#get-sessionsessionidurl
+                </message>
+                <stack-trace>Error: Wrong parameters applied for getUrl
+                Usage: getUrl()
+                For more info see https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol#get-sessionsessionidurl
+                    at Browser.protocolCommand (C:\Users\dgpreciado\source\repos\my_webdriverio\node_modules\webdriver\build\command.js:39:13)
+                    at Browser.runCommandWithHooks (C:\Users\dgpreciado\source\repos\my_webdriverio\node_modules\@wdio\sync\build\wrapCommand.js:88:30)
+                    at Browser.runCommandWithHooks (C:\Users\dgpreciado\source\repos\my_webdriverio\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\Users\dgpreciado\source\repos\my_webdriverio\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Context.&lt;anonymous> (C:\Users\dgpreciado\source\repos\my_webdriverio\test\element.js:3:17)
+                    at Context.executeSync (C:\Users\dgpreciado\source\repos\my_webdriverio\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\dgpreciado\source\repos\my_webdriverio\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
